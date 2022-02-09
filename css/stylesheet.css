@@ -17,14 +17,14 @@
   #container, #containerMenu {
     
 	margin: 0 auto;
-	width: 45%;
-	border: solid  #ffffff;
-	border-width: 0 ;
-    background: rgb(237,237,237);
-    background: -moz-linear-gradient(183deg, rgba(237,237,237,1) 0%, rgba(186,186,186,1) 100%);
-    background: -webkit-linear-gradient(183deg, rgba(237,237,237,1) 0%, rgba(186,186,186,1) 100%);
-    background: linear-gradient(183deg, rgba(237,237,237,1) 0%, rgba(186,186,186,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ededed",endColorstr="#bababa",GradientType=1);
+	width: 640px;
+  border-radius: 30px;
+  border-style: outset;
+  border-width: 10px;
+	border-color: rgb(110, 161, 202);
+	
+  background: rgb(219, 219, 219);
+   
     
 	padding: 0 30px;
     
