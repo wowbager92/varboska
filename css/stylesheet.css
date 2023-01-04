@@ -1,5 +1,5 @@
 
-  html,body {width: 100%; height: 100%; padding: 0; margin: 15px; color:   #4b5c74;}
+  html,body {width:95%; height: 95%; padding: 15px; margin: 15px; color:   #4b5c74;}
  
   body { font-family: Helvetica,Trebuchet MS, Verdana, Arial; font-size: 20px; }
   body, html {background:  #000000;}
@@ -16,7 +16,7 @@
  
   #container, #containerMenu {
     
-	margin: 20px auto;
+	margin: 0 auto;
 	width: 640px;
   border-radius: 30px;
   border-style: outset;
@@ -26,7 +26,7 @@
   background: rgb(219, 219, 219);
    
     
-	padding: 0 30px;
+	padding: 30px 30px;
     
   }
 
