@@ -49,3 +49,31 @@
 
 }
 
+
+
+/* styles.css */
+.banner {
+  width: 100%; /* Adjust the banner width as needed */
+  height: 50px; 
+  background-color: #000; /* Banner background color */
+  position: relative;
+  overflow: hidden; /* Hide the line when it's outside the banner */
+}
+
+.line {
+  width: 2px;
+  height: 100%; /* Full banner height */
+  background-color: #ff0000; /* Line color */
+  position: absolute;
+  left: -2%; /* Start position to the left */
+  animation: moveLine 4s linear infinite alternate; /* Animation properties */
+}
+
+@keyframes moveLine {
+  0% {
+      left: -2%; /* Start position to the left */
+  }
+  100% {
+      left: 100%; /* End position to the right */
+  }
+}
